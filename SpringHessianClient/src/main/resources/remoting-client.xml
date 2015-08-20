@@ -1,0 +1,7 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <bean id="efileServiceClent" class="org.springframework.remoting.caucho.HessianProxyFactoryBean">
+        <property name="serviceUrl" value="http://localhost/SpringmvcHessian/hs/efService.hs"/>
+        <property name="serviceInterface" value="cn.ly.services.i.EfileService" />
+    </bean>
+</beans>
