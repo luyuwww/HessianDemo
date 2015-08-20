@@ -5,6 +5,7 @@
 *.ear
 hs_err*.log
 /target
+/*/target
 /.svn
 /.settings
 /.classpath
